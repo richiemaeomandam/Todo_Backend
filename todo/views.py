@@ -4,7 +4,6 @@ from rest_framework import status
 from .models import Task
 from .serializers import TaskSerializer
 
-
 @api_view(['GET'])
 def task_list(request):
     try:
